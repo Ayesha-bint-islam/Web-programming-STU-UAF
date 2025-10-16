@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>survey</title>
+</head>
+<body>
+    <form action="/submit-survey" method="post">
+        <div>
+        <label for="age">female:</label>
+        <input type="number" id="age" name="age" required>
+        </div>
+        <div>
+        <label for="age">male:</label>      
+        <input type="number" id="age" name="age" required>
+        </div>
+        <div>
+        <label for="age">old:</label>
+        <input type="number" id="age" name="age" required>
+        </div>
+        <div>
+        <label for="age">young:</label>
+        <input type="number" id="age" name="age" required>  
+        </div>
+        <div>
+        <label for="age">other:</label>
+        <input type="number" id="age" name="age" required>
+        </div>
+        <div>
+        <meter id="age" name="age" min="0" max="100" value="50">50</meter>
+        </div>
+        <div><progress id="file" value="32" max="100"> 32% </progress></div>
+        <div><output name="result" for="a b">0</output></div>
+        
+        <button type="submit">Send</button>
+</body>
+</html>

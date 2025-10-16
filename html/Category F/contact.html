@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form</title>
+</head>
+<body>
+    <form action="/submit" method="post">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="phone no">phone no:</label>
+        <input type="text" id="phone no" name="phone no" required>
+       
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" rows="4" required></textarea>
+
+        <select id="category" name="category" required>
+            <option value="">Select Category</option>
+            <option value="Category A">Category A</option>
+            <option value="Category B">Category B</option>
+            <option value="Category C">Category C</option>
+            <option value="Category D">Category D</option>
+            <option value="Category E">Category E</option>
+            <option value="Category F">Category F</option>
+        </select>
+        <fieldset>
+            <legend>Preferred Contact Method:</legend>
+            <input type="radio" id="contact_email" name="contact_method" value="Email" required>
+            <label for="contact_email">Email</label>
+
+            <input type="radio" id="contact_phone" name="contact_method" value="Phone">
+            <label for="contact_phone">Phone</label>
+        </fieldset>
+        <datalist id="topics">
+            <option value="General Inquiry">
+            <option value="Support">
+            <option value="Feedback">
+            <option value="Other"></option>
+        </datalist>
+        <button type="submit">Send</button>
+    </form>
+</body>
+</html>
