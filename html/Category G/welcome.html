@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>dialog</title>
+</head>
+<body>
+     <button id="open">HTML</button> 
+   <dialog id="dlg"> 
+     <p>Welcome to learn HTML</p> 
+     <form method="dialog"><button>Close</button></form> 
+   </dialog> 
+   <script> 
+     document.getElementById('open').addEventListener('click', () => 
+       document.getElementById('dlg').showModal()); 
+   </script>
+</body>
+</html>
