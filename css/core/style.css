@@ -1,0 +1,148 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+
+    
+}
+h1 {
+    font-family: 'Arial', sans-serif;
+    color:white;
+    text-align: left;
+    margin: 0;
+    background-color: #555;
+    padding: 0.5rem;
+    
+    
+}
+nav {
+    background-color: #333;
+    color: white;
+    padding: 1rem;
+    border-radius: 0 0 10px 10px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    align-items: center;
+    margin-right: 2rem;
+    margin-left: 2rem;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+article
+h2 {
+    font-family: 'Arial', sans-serif;
+    color: #555;
+    text-align: center;
+    margin-bottom: 1rem;
+   
+
+}
+h3 {
+    font-family: 'Arial', sans-serif;
+    color: #444;
+    text-align: left;
+    margin-bottom: 0.5rem;
+
+}
+p {
+    font-family: 'Arial', sans-serif;
+    ;
+    line-height: 1.6;
+    margin-bottom: 1rem;
+    text-align: center;
+
+}
+.bottom {
+    padding: 0.1rem;
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    border-radius: 0%;
+    display: block;
+
+
+}
+section {
+    margin: 2rem;
+    padding: 1rem;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+section h2 {
+    margin-top: 0;
+    padding: 0.5rem;
+    background-color: #eee;
+}
+table caption {
+    font-family: 'Arial', sans-serif;
+    font-size: 1.5rem;
+    margin-bottom: 0rem;
+    border: #444 2px solid;
+    background-color: #555;
+    border-radius : 5px 5px 0 0;
+}
+table h3 {
+    margin: 0.5rem;
+    color: white;
+
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 1rem;
+    border: #444 2px solid;
+    border-radius: 5px;
+
+}
+table th, table td {
+    border: 1px solid #ddd;
+    padding: 0.5rem;
+    text-align: left;
+}
+table th {
+    background-color: #f4f4f4;
+}
+table tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+table tr:hover {
+    background-color: #f1f1f1;
+}
+button {
+    background-color: #333;
+    color: white;
+    border: none;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+    border-radius: 5px;
+}
+form {
+    margin: 2rem 0;
+    text-align: center;
+}
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+    margin-top: 2rem;
+    border-radius: 10px;
+}
